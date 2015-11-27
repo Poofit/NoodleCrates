@@ -1,0 +1,21 @@
+name: NoodleCrates
+main: com.NoodleNetworks.NoodleCrates.Crate
+version: 0.1
+commands:
+  setcrate:
+    description: Crates Location Command.
+    aliases: [setcrates, crates, crate]
+  givekey:
+    description: Crates Key Command.
+    aliases: [key, cratekey]
+# Permissions:
+#
+permissions:
+   NoodleCrate.contents:
+       description: See contents of the crate
+   NoodleCrates.create:
+       description: Create a crate sign
+   NoodleCrates.key:
+       description: Give a player a key
+   NoodleCrate.location:
+       description: Give a player a key
